@@ -1,0 +1,44 @@
+// 初期設定CSS
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: black;
+}
+a {
+  text-decoration: none;
+}
+
+.curd-link {
+  color: gray;
+  font-size: 15px;
+  border-bottom: solid 1px;
+}
+
+// index view部分
+.index-body {
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+td, th {
+  padding: 0 5px;
+  font-size: 20px;
+}
+
+
+// show view部分
+.show-body {
+  padding-left: 25px;
+  padding-top: 30px;
+}
+
+.headline {
+  font-size: 20px;
+}
+
+// edit view部分
+.edit-body {
+  padding-left: 25px;
+  padding-top: 30px;
+}

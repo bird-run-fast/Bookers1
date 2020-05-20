@@ -1,0 +1,13 @@
+
+<div class="show-body">
+<span class="headline">title:</span>
+<span><%= "#{@book.title}" %></span>
+<br>
+<span class = "headline">body:</span>
+<span><%= "#{@book.body}" %></span>
+
+<br>
+<br>
+<%= link_to "edit", edit_book_path(@book.id), class:"curd-link" %>
+<%= link_to "back", "/books", class:"curd-link" %>
+</div>
